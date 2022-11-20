@@ -512,6 +512,23 @@
                   ></use>
                 </svg>
               </div>
+              <div class="newsletter">
+                <form class="newsletter-form">
+                  <fieldset class="sing-in">
+                  <label class="newsletter-email" id="zapisz">Zapisz się do newslettera</label>
+                    <input class="newsletter-input" type="email" name="newsletteremail" placeholder="E-mail" id="zapisz">
+                  </fieldset>
+                  <fieldset class="sing-button">
+                  <button class="newsletter-button" type="submit">Zapisz się
+                    <svg class="send" width="24px" height="24px">
+                      <use width="24px" height="24px"
+                      href="./images/icons.svg/symbol-defs.svg#icon-send"></use>
+                    </svg>
+                  </button>
+                  </fieldset>
+              </fieldset>
+                </form>
+              </div>
             </div>
           </div>
         </section>
@@ -522,8 +539,53 @@
       <button type="button" data-modal-close>
         <svg width="28px" height="28px">
           <use width="11px" height="11px" x="9px" y="9px" href="./images/icons.svg/symbol-defs.svg#icon-close-black-18dp-2-1">
-
-      </use></svg></button>
+          </use></svg></button>
+          <div class="modal-content">
+            <form class="my-form">
+              <p class="modal-head">Zostaw swoje dane w formularzu poniżej</p>
+              <fieldset class="modal-fieldset">
+              <label for="imie" class="modal-label">Imie</label>
+                <svg class="modal-icon">
+                  <use 
+                  href="./images/icons.svg/symbol-defs.svg#icon-imie">
+                  </use>
+                </svg>
+                <input class="modal-input" type="text" name="imie" id="imie">
+              </fieldset>
+              <fieldset class="modal-fieldset">
+                <label for="telefon" class="modal-label">Telefon</label>
+                <svg class="modal-icon">
+                  <use
+                  href="./images/icons.svg/symbol-defs.svg#icon-telefon">
+                </use>
+                </svg>
+                <input class="modal-input" type="tel" name="telefon" id="telefon">
+              </fieldset>
+              <fieldset class="modal-fieldset">
+                <label for="email" class="modal-label">Email</label>
+                <svg class="modal-icon">
+                  <use
+                  href="./images/icons.svg/symbol-defs.svg#icon-e-mail">
+                </use>
+                </svg>
+                <input class="modal-input" type="email" id="email">
+              </fieldset>
+              <fieldset class="modal-textarea">
+                <label for="komentarz" class="modal-label">Komentarz</label>
+                <textarea class="text-area" name="komentarz" placeholder="Wprowadź tekst" id="komentarz"></textarea>
+              </fieldset>
+              <fieldset class="fieldset-legal">
+                <input class="checkbox" type="checkbox" name="checkbox">
+                <label class="label-legal">
+                  Oświadczam iż akceptuję <span class="link-legal">Regulamin</span> i <span class="link-legal">Politykę Prywatności</cite></span>
+                  
+                </label>
+              </fieldset>
+              <fieldset class="fieldset-button">
+              <button class="modal-button" type="submite">Wyślij</button>
+              </fieldset>
+            </form>
+          </div>
     </div>
     </div>
     <script src="./js/modal.js"></script>
