@@ -685,7 +685,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-textarea:has(.modal-input:focus){
+.modal-textarea:has(.text-area:focus){
   border-color: rgba(33, 150, 243, 1);
   transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -702,6 +702,23 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   margin-left: 40px;
   margin-right: 40px;
   padding: 0;
+}
+.checkbox{
+width: 16px;
+height: 15px;
+background-color: #FFFFFF;
+border-radius: 4px;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+outline: 0;
+}
+.checkbox:focus{
+  background-color: #2196F3;
+  border-radius: 2px;
+  outline: 0;
+  cursor: pointer;
+  content: url(/images/icons.svg/symbol-defs.svg#icon-accept);
+ box-shadow: none;
+
 }
 .modal-textarea{
   display: flex;
